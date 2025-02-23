@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class ExamplesTest {
 
     private static final String EXPECTED = "67.5";
-    private List<BigDecimal> prices = List.of(
+    private final List<BigDecimal> prices = List.of(
             new BigDecimal("10"),
             new BigDecimal("30"),
             new BigDecimal("17"),
